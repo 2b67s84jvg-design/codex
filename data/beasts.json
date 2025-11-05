@@ -1,0 +1,467 @@
+[
+  {
+    "id": "lunarkit",
+    "name": "Lunarkit",
+    "element": ["Moon"],
+    "rarity": "Common",
+    "favoriteFoods": ["dreamberries", "starlit milk"],
+    "signatureTrait": "Shy Empath",
+    "workProficiency": "Dreamkeeper",
+    "hybridCombos": [
+      {
+        "with": "sunflit",
+        "result": "Eclipsea",
+        "hybridElements": ["Moon", "Solar"],
+        "baseChance": 0.22
+      }
+    ]
+  },
+  {
+    "id": "sunflit",
+    "name": "Sunflit",
+    "element": ["Solar"],
+    "rarity": "Common",
+    "favoriteFoods": ["sun nectar", "citrus pollen"],
+    "signatureTrait": "Radiant Aura",
+    "workProficiency": "Pollinator",
+    "hybridCombos": [
+      {
+        "with": "lunarkit",
+        "result": "Eclipsea",
+        "hybridElements": ["Solar", "Moon"],
+        "baseChance": 0.22
+      }
+    ]
+  },
+  {
+    "id": "brimrill",
+    "name": "Brimrill",
+    "element": ["Ember"],
+    "rarity": "Uncommon",
+    "favoriteFoods": ["magma truffles", "charcoal kelp"],
+    "signatureTrait": "Hardy Furnace",
+    "workProficiency": "Smelter",
+    "hybridCombos": [
+      {
+        "with": "froscale",
+        "result": "Steamjaw",
+        "hybridElements": ["Ember", "Frost"],
+        "baseChance": 0.18
+      }
+    ]
+  },
+  {
+    "id": "froscale",
+    "name": "Froscale",
+    "element": ["Frost"],
+    "rarity": "Uncommon",
+    "favoriteFoods": ["glacier fish", "minted ice"],
+    "signatureTrait": "Calm Resilience",
+    "workProficiency": "Fisher",
+    "hybridCombos": [
+      {
+        "with": "brimrill",
+        "result": "Steamjaw",
+        "hybridElements": ["Frost", "Ember"],
+        "baseChance": 0.18
+      }
+    ]
+  },
+  {
+    "id": "stormwisp",
+    "name": "Stormwisp",
+    "element": ["Storm"],
+    "rarity": "Rare",
+    "favoriteFoods": ["charged dew", "sky almonds"],
+    "signatureTrait": "Static Whirl",
+    "workProficiency": "Weather Sage",
+    "hybridCombos": [
+      {
+        "with": "terragore",
+        "result": "Tempesthorn",
+        "hybridElements": ["Storm", "Earth"],
+        "baseChance": 0.2
+      }
+    ]
+  },
+  {
+    "id": "terragore",
+    "name": "Terragore",
+    "element": ["Earth"],
+    "rarity": "Rare",
+    "favoriteFoods": ["moss loaves", "gemroot"],
+    "signatureTrait": "Gentle Giant",
+    "workProficiency": "Quarry Worker",
+    "hybridCombos": [
+      {
+        "with": "stormwisp",
+        "result": "Tempesthorn",
+        "hybridElements": ["Earth", "Storm"],
+        "baseChance": 0.2
+      }
+    ]
+  },
+  {
+    "id": "sylphling",
+    "name": "Sylphling",
+    "element": ["Wind"],
+    "rarity": "Common",
+    "favoriteFoods": ["gust petals", "whipped cloud"],
+    "signatureTrait": "Mischief Gale",
+    "workProficiency": "Courier",
+    "hybridCombos": [
+      {
+        "with": "mirebrood",
+        "result": "Gossamer Toad",
+        "hybridElements": ["Wind", "Swamp"],
+        "baseChance": 0.16
+      }
+    ]
+  },
+  {
+    "id": "mirebrood",
+    "name": "Mirebrood",
+    "element": ["Swamp"],
+    "rarity": "Common",
+    "favoriteFoods": ["bog beetles", "fungal broth"],
+    "signatureTrait": "Toxic Bloom",
+    "workProficiency": "Alchemist",
+    "hybridCombos": [
+      {
+        "with": "sylphling",
+        "result": "Gossamer Toad",
+        "hybridElements": ["Swamp", "Wind"],
+        "baseChance": 0.16
+      }
+    ]
+  },
+  {
+    "id": "aethermoth",
+    "name": "Aethermoth",
+    "element": ["Arcane"],
+    "rarity": "Rare",
+    "favoriteFoods": ["astral pollen", "moon sugar"],
+    "signatureTrait": "Phase Drift",
+    "workProficiency": "Archivist",
+    "hybridCombos": [
+      {
+        "with": "glimmerfox",
+        "result": "Illusory Mothfox",
+        "hybridElements": ["Arcane", "Light"],
+        "baseChance": 0.25
+      }
+    ]
+  },
+  {
+    "id": "glimmerfox",
+    "name": "Glimmerfox",
+    "element": ["Light"],
+    "rarity": "Rare",
+    "favoriteFoods": ["prism fruit", "glowberries"],
+    "signatureTrait": "Trickster Charm",
+    "workProficiency": "Scout",
+    "hybridCombos": [
+      {
+        "with": "aethermoth",
+        "result": "Illusory Mothfox",
+        "hybridElements": ["Light", "Arcane"],
+        "baseChance": 0.25
+      }
+    ]
+  },
+  {
+    "id": "obsidrake",
+    "name": "Obsidrake",
+    "element": ["Shadow"],
+    "rarity": "Legendary",
+    "favoriteFoods": ["void quartz", "nightshade jerky"],
+    "signatureTrait": "Veiled Fury",
+    "workProficiency": "Defender",
+    "hybridCombos": [
+      {
+        "with": "radiant_stag",
+        "result": "Nightprism Drake",
+        "hybridElements": ["Shadow", "Aurora"],
+        "baseChance": 0.28
+      }
+    ]
+  },
+  {
+    "id": "radiant_stag",
+    "name": "Radiant Stag",
+    "element": ["Aurora"],
+    "rarity": "Legendary",
+    "favoriteFoods": ["aurora moss", "sunlit clover"],
+    "signatureTrait": "Noble Guard",
+    "workProficiency": "Beacon Keeper",
+    "hybridCombos": [
+      {
+        "with": "obsidrake",
+        "result": "Nightprism Drake",
+        "hybridElements": ["Aurora", "Shadow"],
+        "baseChance": 0.28
+      }
+    ]
+  },
+  {
+    "id": "tidepurl",
+    "name": "Tidepurl",
+    "element": ["Water"],
+    "rarity": "Common",
+    "favoriteFoods": ["pearl kelp", "bubblefruit"],
+    "signatureTrait": "Bubble Buddy",
+    "workProficiency": "Pearl Diver",
+    "hybridCombos": [
+      {
+        "with": "emberfin",
+        "result": "Steam Siren",
+        "hybridElements": ["Water", "Lava"],
+        "baseChance": 0.2
+      },
+      {
+        "with": "galeserpent",
+        "result": "Tempest Leviathan",
+        "hybridElements": ["Water", "Air"],
+        "baseChance": 0.24
+      }
+    ]
+  },
+  {
+    "id": "emberfin",
+    "name": "Emberfin",
+    "element": ["Lava"],
+    "rarity": "Uncommon",
+    "favoriteFoods": ["spiced coral", "molten roe"],
+    "signatureTrait": "Boiling Heart",
+    "workProficiency": "Glassblower",
+    "hybridCombos": [
+      {
+        "with": "tidepurl",
+        "result": "Steam Siren",
+        "hybridElements": ["Lava", "Water"],
+        "baseChance": 0.2
+      }
+    ]
+  },
+  {
+    "id": "briarhoof",
+    "name": "Briarhoof",
+    "element": ["Flora"],
+    "rarity": "Common",
+    "favoriteFoods": ["verdant oats", "sap sweets"],
+    "signatureTrait": "Verdant Shield",
+    "workProficiency": "Gardener",
+    "hybridCombos": [
+      {
+        "with": "clockwarren",
+        "result": "Thicket Hare",
+        "hybridElements": ["Flora", "Chrono"],
+        "baseChance": 0.17
+      }
+    ]
+  },
+  {
+    "id": "clockwarren",
+    "name": "Clockwarren",
+    "element": ["Chrono"],
+    "rarity": "Rare",
+    "favoriteFoods": ["hourglass seeds", "time clover"],
+    "signatureTrait": "Timelapse",
+    "workProficiency": "Tinkerer",
+    "hybridCombos": [
+      {
+        "with": "briarhoof",
+        "result": "Thicket Hare",
+        "hybridElements": ["Chrono", "Flora"],
+        "baseChance": 0.17
+      }
+    ]
+  },
+  {
+    "id": "nebulyx",
+    "name": "Nebulyx",
+    "element": ["Cosmic"],
+    "rarity": "Legendary",
+    "favoriteFoods": ["nebula figs", "stardust cones"],
+    "signatureTrait": "Gravity Well",
+    "workProficiency": "Star Harvester",
+    "hybridCombos": [
+      {
+        "with": "quillvyrn",
+        "result": "Singularity Vyrn",
+        "hybridElements": ["Cosmic", "Crystal"],
+        "baseChance": 0.26
+      }
+    ]
+  },
+  {
+    "id": "quillvyrn",
+    "name": "Quillvyrn",
+    "element": ["Crystal"],
+    "rarity": "Rare",
+    "favoriteFoods": ["prism bark", "mica crisps"],
+    "signatureTrait": "Prism Spines",
+    "workProficiency": "Miner",
+    "hybridCombos": [
+      {
+        "with": "nebulyx",
+        "result": "Singularity Vyrn",
+        "hybridElements": ["Crystal", "Cosmic"],
+        "baseChance": 0.26
+      }
+    ]
+  },
+  {
+    "id": "voltursa",
+    "name": "Voltursa",
+    "element": ["Lightning"],
+    "rarity": "Rare",
+    "favoriteFoods": ["storm honey", "charged roots"],
+    "signatureTrait": "Thunder Roar",
+    "workProficiency": "Sentinel",
+    "hybridCombos": [
+      {
+        "with": "dewsprite",
+        "result": "Stormsprite Bear",
+        "hybridElements": ["Lightning", "Mist"],
+        "baseChance": 0.21
+      }
+    ]
+  },
+  {
+    "id": "dewsprite",
+    "name": "Dewsprite",
+    "element": ["Mist"],
+    "rarity": "Uncommon",
+    "favoriteFoods": ["dew pearls", "rainleaf"],
+    "signatureTrait": "Rain Dancer",
+    "workProficiency": "Healer",
+    "hybridCombos": [
+      {
+        "with": "voltursa",
+        "result": "Stormsprite Bear",
+        "hybridElements": ["Mist", "Lightning"],
+        "baseChance": 0.21
+      }
+    ]
+  },
+  {
+    "id": "ambercoil",
+    "name": "Ambercoil",
+    "element": ["Metal"],
+    "rarity": "Rare",
+    "favoriteFoods": ["magnet pears", "iron lotus"],
+    "signatureTrait": "Magnetic Shell",
+    "workProficiency": "Artisan",
+    "hybridCombos": [
+      {
+        "with": "bloomspur",
+        "result": "Gilded Pollenbug",
+        "hybridElements": ["Metal", "Fae"],
+        "baseChance": 0.19
+      }
+    ]
+  },
+  {
+    "id": "bloomspur",
+    "name": "Bloomspur",
+    "element": ["Fae"],
+    "rarity": "Uncommon",
+    "favoriteFoods": ["nectar wafers", "fae sugar"],
+    "signatureTrait": "Pollen Pulse",
+    "workProficiency": "Apothecarist",
+    "hybridCombos": [
+      {
+        "with": "ambercoil",
+        "result": "Gilded Pollenbug",
+        "hybridElements": ["Fae", "Metal"],
+        "baseChance": 0.19
+      }
+    ]
+  },
+  {
+    "id": "wispurr",
+    "name": "Wispurr",
+    "element": ["Spirit"],
+    "rarity": "Common",
+    "favoriteFoods": ["moon yarn", "spiritfish"],
+    "signatureTrait": "Echo Purr",
+    "workProficiency": "Comforter",
+    "hybridCombos": [
+      {
+        "with": "huskfang",
+        "result": "Phantom Lynx",
+        "hybridElements": ["Spirit", "Bone"],
+        "baseChance": 0.2
+      }
+    ]
+  },
+  {
+    "id": "huskfang",
+    "name": "Huskfang",
+    "element": ["Bone"],
+    "rarity": "Uncommon",
+    "favoriteFoods": ["marrow roots", "calcified berries"],
+    "signatureTrait": "Ossified Hide",
+    "workProficiency": "Tracker",
+    "hybridCombos": [
+      {
+        "with": "wispurr",
+        "result": "Phantom Lynx",
+        "hybridElements": ["Bone", "Spirit"],
+        "baseChance": 0.2
+      }
+    ]
+  },
+  {
+    "id": "galeserpent",
+    "name": "Galeserpent",
+    "element": ["Air"],
+    "rarity": "Rare",
+    "favoriteFoods": ["sky eels", "zephyr plums"],
+    "signatureTrait": "Sky Dancer",
+    "workProficiency": "Navigator",
+    "hybridCombos": [
+      {
+        "with": "tidepurl",
+        "result": "Tempest Leviathan",
+        "hybridElements": ["Air", "Water"],
+        "baseChance": 0.24
+      }
+    ]
+  },
+  {
+    "id": "solblossom",
+    "name": "Solblossom",
+    "element": ["Solar", "Flora"],
+    "rarity": "Rare",
+    "favoriteFoods": ["sun petals", "golden nectar"],
+    "signatureTrait": "Solar Bloom",
+    "workProficiency": "Orchardist",
+    "hybridCombos": [
+      {
+        "with": "frostvine",
+        "result": "Aurora Petal",
+        "hybridElements": ["Solar", "Frost", "Flora"],
+        "baseChance": 0.23
+      }
+    ]
+  },
+  {
+    "id": "frostvine",
+    "name": "Frostvine",
+    "element": ["Frost", "Flora"],
+    "rarity": "Uncommon",
+    "favoriteFoods": ["glacier sap", "snowpetal"],
+    "signatureTrait": "Crystal Bloom",
+    "workProficiency": "Brewmaster",
+    "hybridCombos": [
+      {
+        "with": "solblossom",
+        "result": "Aurora Petal",
+        "hybridElements": ["Frost", "Solar", "Flora"],
+        "baseChance": 0.23
+      }
+    ]
+  }
+]
