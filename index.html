@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Sunheart Reliquary</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main id="app">
+    <canvas id="game" width="960" height="540" aria-label="Sunheart Reliquary"></canvas>
+    <section id="hud" aria-live="polite">
+      <div class="vital-group">
+        <label>Health</label>
+        <progress id="health-bar" max="100"></progress>
+      </div>
+      <div class="vital-group">
+        <label>Hunger</label>
+        <progress id="hunger-bar" max="100"></progress>
+      </div>
+      <div class="vital-group">
+        <label>Thirst</label>
+        <progress id="thirst-bar" max="100"></progress>
+      </div>
+      <div class="vital-group">
+        <label>Stamina</label>
+        <progress id="stamina-bar" max="100"></progress>
+      </div>
+      <div class="vital-group">
+        <label>Sanity</label>
+        <progress id="sanity-bar" max="100"></progress>
+      </div>
+      <div id="time-weather"></div>
+      <div id="quest-log"></div>
+      <div id="inventory"></div>
+      <div id="message-log" role="log"></div>
+    </section>
+    <section id="controls">
+      <div class="dpad">
+        <button type="button" data-dir="up" aria-label="Move up">▲</button>
+        <div>
+          <button type="button" data-dir="left" aria-label="Move left">◀</button>
+          <button type="button" data-dir="down" aria-label="Move down">▼</button>
+          <button type="button" data-dir="right" aria-label="Move right">▶</button>
+        </div>
+      </div>
+      <div class="actions">
+        <button type="button" id="gather-btn">Gather</button>
+        <button type="button" id="rest-btn">Rest</button>
+        <button type="button" id="craft-btn">Craft</button>
+        <button type="button" id="consume-btn">Consume</button>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="src/game.js"></script>
+</body>
+</html>
