@@ -1,0 +1,5 @@
+# Ignore downloaded wheels by default.
+*
+
+# Allow this file to be tracked.
+!.gitignore
